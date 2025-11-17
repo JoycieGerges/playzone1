@@ -4,7 +4,13 @@ GameArena is the ultimate destination for competitive gaming, esports tournament
 
 ---
 
-📱 Features
+## 🌐 Live Demo
+
+Check out the live website here: https://playzone1.netlify.app/
+
+---
+
+## 📱 Features
 
 🕹️ Display of professional team members with roles and achievements
 
@@ -18,7 +24,9 @@ GameArena is the ultimate destination for competitive gaming, esports tournament
 
 ✨ Clean, modern, and interactive layout
 
-🛠️ Tech Stack
+---
+
+## 🛠️ Tech Stack
 
 HTML – structure and content of the pages
 
@@ -28,7 +36,9 @@ JavaScript – interactive elements and animations
 
 FontAwesome – icons for social links and interface
 
-🚀 Getting Started
+---
+
+## 🚀 Getting Started
 
 To run the project locally:
 
@@ -38,7 +48,9 @@ Make sure all files (index.html, style.css, javascript/bootstrap.bundle.min.js, 
 
 Open index.html in your browser to view the website.
 
-🧠 Author
+---
+
+## 🧠 Author
 
 Developed by Joycie Gerges
 
