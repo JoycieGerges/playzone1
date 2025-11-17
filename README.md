@@ -32,8 +32,6 @@ HTML – structure and content of the pages
 
 CSS / Bootstrap 5 – styling, responsive design, and layout
 
-JavaScript – interactive elements and animations
-
 FontAwesome – icons for social links and interface
 
 ---
