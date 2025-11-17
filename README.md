@@ -2,6 +2,8 @@
 
 GameArena is the ultimate destination for competitive gaming, esports tournaments, and a gaming community platform. The website showcases professional gamers, upcoming tournaments, sponsors, and provides a contact section for inquiries and support.
 
+---
+
 📱 Features
 
 🕹️ Display of professional team members with roles and achievements
