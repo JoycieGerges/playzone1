@@ -1,0 +1,467 @@
+/*------------ Start navbar section------------ */
+.navbarstyle {
+  background-color: #0B0E13;
+}
+
+.iconcolor {
+  color: #CBFE1C;
+}
+
+.gamearenastyle {
+  color: #CBFE1C;
+}
+
+.nav-link {
+  font-weight: 500;
+}
+
+.nav-link:hover {
+  color: #CBFE1C !important;
+}
+
+.signinbutton {
+  background-color: #CBFE1C;
+}
+
+.signinbutton:hover {
+  background-color: #A6CE19;
+  color: #0B0E13;
+}
+
+.notificationstyle:hover,
+.messageicon:hover {
+  color: #CBFE1C !important;
+}
+
+
+.togglerstyle:hover i {
+  color: #CBFE1C !important;
+}
+
+.mobile-menu-style a {
+  font-weight: 500;
+}
+
+.mobile-menu-style a:hover {
+  color: #CBFE1C !important;
+
+}
+
+.mobile-menu-style {
+  border-top: 1px solid #222;
+  padding-bottom: 1rem;
+}
+
+/*------------ End navbar section------------ */
+
+
+/*------------ Start Hero section------------ */
+.mainstyle {
+  position: relative;
+  background-image: url("../images/hero-bg.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+}
+
+.mainstyle::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  z-index: 0;
+}
+
+h1 {
+  font-size: 60px;
+}
+
+.gamingstyle {
+  color: #CBFE1C;
+}
+
+.Joinparagraph {
+  color: #ABAEB3;
+  font-size: 16px;
+}
+
+.buttoncolorbg {
+  background-color: #CBFE1C;
+}
+
+.buttoncolorbg:hover {
+  background-color: #A6CE19;
+}
+
+.buttoncolor {
+  border: 2px solid #CBFE1C;
+  color: #CBFE1C;
+}
+
+.buttoncolor:hover {
+  background-color: #CBFE1C;
+  color: black;
+}
+
+.imageborder {
+  width: 100%;
+  padding: 5px;
+  background: linear-gradient(to right, #CAFE1D, #08DF73);
+  height: 50vh;
+  /* min-height: 250px; 
+  max-height: 500px;  */
+}
+
+.img-right {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.active-players-badge {
+  background-color: #0B0E13;
+  padding: 20px;
+  border: 1px solid #364153;
+  left: 0;
+  bottom: -20px;
+}
+
+.trophycolor {
+  color: #CBFE1C;
+}
+
+/*------------ End Hero section ------------ */
+
+
+/*------------  Start Our Latest Games section ------------ */
+.our-latest-games {
+  background-color: #0B0E13;
+  padding: 80px 0;
+}
+
+.colorneon {
+  color: #CBFE1C;
+}
+
+  .line-left, .line-right {
+    position: absolute;
+    top: 50%;
+    width: 40px;
+    height: 2px;
+    background: linear-gradient(to right, transparent, #CBFE1C, #CBFE1C);
+    transform: translateY(-50%);
+  }
+
+  .line-left { 
+    left: -50px;
+   }
+
+  .line-right {
+    right: -50px;
+    background: linear-gradient(to left, transparent, #CBFE1C, #CBFE1C); }
+
+.viewallgamesbtn {
+  border: 5px solid #CBFE1C;
+  color: #CBFE1C;
+}
+
+.viewallgamesbtn:hover {
+  background-color: #CBFE1C;
+  color: black;
+}
+
+.carousel-img {
+  height: 250px;
+  object-fit: cover;
+}
+
+.game-card img {
+  transition: transform 0.3s ease;
+}
+
+.game-card:hover img {
+  transform: scale(1.05);
+}
+
+.l-r-btn {
+  color: #99A1AF;
+  border-radius: 50%;
+  border-color: #99A1AF;
+  font-size: 20px;
+}
+
+.l-r-btn:hover {
+  color: #CBFE1C;
+  border-radius: 50%;
+  border-color: #CBFE1C;
+}
+
+.overlay {
+  width: 100%;
+  height: 50%;
+  background: linear-gradient(to top, #CBFE1C, transparent);
+  padding: 0.5rem 1rem;
+  opacity: 0;
+}
+
+.game-card:hover .overlay {
+  opacity: 1;
+}
+
+.badges {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.text1 {
+  gap: 5px;
+  height: 25px;
+  font-size: 15px;
+}
+
+.game-card:hover {
+  border-color: #CBFE1C;
+}
+
+/*------------  End Our Latest Games section ------------ */
+
+
+/*------------ Start What we do section ------------*/
+.what-we-do {
+  background-color: #0B0E13;
+  padding: 80px 0;
+}
+
+.custom-card {
+  background-color: #1A1A1A;
+  border: 1px solid #2d2d2d;
+  position: relative;
+  overflow: hidden;
+  aspect-ratio: 1 / 1;
+}
+
+.custom-card:hover {
+  border-color: #CBFE1C;
+}
+
+.corner {
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  transition: all 0.3s ease;
+}
+
+.top-left {
+  top: -24px;
+  left: -24px;
+  border-width: 24px 24px 0 0;
+}
+
+.custom-card:hover .top-left {
+  top: 16px;
+  left: 16px;
+  border-color: #CBFE1C transparent transparent transparent;
+}
+
+.bottom-right {
+  bottom: -24px;
+  right: -24px;
+  border-width: 0 0 24px 24px;
+}
+
+.custom-card:hover .bottom-right {
+  bottom: 16px;
+  right: 16px;
+  border-color: transparent transparent #CBFE1C transparent;
+}
+
+.bgicon {
+  width: 60px;
+  height: 60px;
+  background-color: #1F2937;
+  transition: all 0.3s ease;
+}
+
+.custom-card:hover .bgicon {
+  background-color: #CBFE1C;
+}
+
+.custom-card:hover .bgicon i {
+  color: #000 !important;
+}
+
+.section-separator {
+  height: 2px;
+  width: 80%;
+  max-width: 600px;
+  margin: 2rem auto; /* مركزي تلقائي */
+  background: linear-gradient(90deg, transparent, #CBFE1C 20%, #CBFE1C 80%, transparent);
+  box-shadow: 0 0 10px #CBFE1C, 0 0 20px rgba(203, 254, 28, 0.3);
+}
+/*------------ End What we do section ------------*/
+
+
+/*------------ Start Sponsers ------------*/
+
+@keyframes scroll-left {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+@keyframes scroll-right {
+  0% { transform: translateX(-50%); }
+  100% { transform: translateX(0); }
+}
+
+.scroll-left {
+  animation: scroll-left 10s linear infinite;
+}
+.scroll-right {
+  animation: scroll-right 10s linear infinite;
+}
+
+.sponsers {
+  background-color: #0B0E13;
+  margin-top: -50px;
+}
+
+.imagestyle {
+  width: 10%;         
+  max-width: 110px;  
+  min-width: 50px;     
+}
+
+.circlebg {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  height: 20vw; 
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+  background: radial-gradient(ellipse at center, #CBFE1C 0%, transparent 70%);
+  opacity: 0.5;
+  z-index: 0;
+}
+/*------------ End Sponsers ------------*/
+
+
+/*------------ Start our-team ------------*/
+.our-team{
+background-color: #0B0E13;
+}
+
+.team-card {
+  cursor: pointer;
+}
+
+.team-card img {
+  width: 100%;
+  height: 100%;
+  filter: grayscale(100%) brightness(70%);
+  transition: filter 0.5s ease;
+}
+
+.team-card:hover img {
+  filter: none;
+}
+
+.team-overlay {
+  width: 100%;
+  height: 100%;
+   background: rgba(0,0,0,0.2);
+  transform: translateY(100%);
+  transition: transform 0.7s ease;
+}
+
+.team-card:hover .team-overlay {
+  transform: translateY(0);
+}
+
+.team-info {
+  filter: grayscale(100%);
+  bottom: 20px;
+  left: 20px;
+}
+
+.team-card:hover .team-info {
+  filter: none;
+}
+/*------------ End our-team ------------
+
+
+/*------------ Start Contact Us ------------*/
+.contact-us{
+   background-color:#101624 ;
+}
+
+.contact-box{
+  background-color: #1E2939;
+}
+
+.icon-circle {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: #CBFE1C;
+}
+
+.social-box {
+  background: linear-gradient(to right, #C8FD22, #1EE071);
+}
+
+.social-icon {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.social-icon:hover {
+  opacity: 0.7;
+}
+
+.form-label{
+  color: #9398A1;
+}
+
+.input-style {
+  background-color: #364153 !important;
+  border: 1px solid #364153 !important;
+  color: #9398A1 !important;
+}
+
+.input-style::placeholder {
+  color: #9398A1 !important; 
+}
+
+.input-style:focus {
+  color: #9398A1 !important; 
+  border-color: #CBFE1C !important;
+  box-shadow: none !important;
+}
+
+.graycolor{
+  color: #99A1AF;
+}
+
+.Send-Messagebtn{
+  background-color: #CBFE1C;
+}
+
+.Send-Messagebtn:hover {
+  background-color: #A6CE19;
+  color: #0B0E13;
+}
+/*------------ End Contact Us ------------*/
+
+
+/*------------ Start Footer ------------*/
+.hover-primary:hover {
+  color: #CBFE1C !important;
+}
+/*------------ End Footer ------------*/

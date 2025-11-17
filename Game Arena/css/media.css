@@ -1,0 +1,6 @@
+@media (max-width: 767px) {
+  .mainstyle {
+    padding-top: 50%; /* أو أي مسافة تناسبك */
+    text-align: center;
+  }
+}
